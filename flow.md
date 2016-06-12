@@ -12,6 +12,21 @@ Redmine, Jira, 手書きの付箋, etc...
 TaskList
 
 ## [readme.md] ドキュメントを管理する
+共有ディレクトリにExcelでとか辞めよう
+管理者がはっきりするし
+Macだし
+
+## [default branch] デフォルトブランチを設定する
+clone時
+他メリットは？
+
+## [protected branches] ブランチを事故から守る
+push -f
+他メリットは？ブラウザで消せない？
+
+## [branch] ブランチを消す
+branchesから
+PullRequestマージ時
 
 ## [mention] メンバーを紐付ける
 確認方法
