@@ -1,4 +1,4 @@
 # git-agile
-+ [Draft](draft.md)
-+ [Flow](flow.md)
-+ [Todo](todo.md)
++ [doc/](doc)以下を参照
++ [01_目次](doc/01_目次.md)以外は殴り書き
++ 参考リンクを最後にまとめて入れる予定
