@@ -21,10 +21,10 @@ ZenHubを導入して一通り必要なことを設定するという想定で�
 ## [story] ストーリを作ろう
 ZenHubではIssueをストーリとして扱う
 
-なにやら青いボタンが増えているが、今は気にせずストーリを作ろう
+なにやら青いボタンが増えているが、今は気にせずIssueを作ろう
 ![issue-create.png](https://qiita-image-store.s3.amazonaws.com/0/113398/222c336e-2151-b737-193b-88ba70926a2b.png "issue-create.png")
 
-ここで前に紹介したIssueのテンプレートが役に立つ！ ぜひ「目的」と「Doneの定義」を意識してストーリを作ろう！
+ここで前に紹介したIssueのテンプレートが役に立つ！ ぜひ「目的」と「Doneの定義」を意識してIssueを作ろう！
 [課題管理編: Issue作成時の説明欄にテンプレートを設定する](http://qiita.com/suzuki-hoge/items/3a568dff36fd981082ba#git-template-for-issue-issue%E4%BD%9C%E6%88%90%E6%99%82%E3%81%AE%E8%AA%AC%E6%98%8E%E6%AC%84%E3%81%AB%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B)
 
 実はストーリを作るのは今までIssueを作っていたやり方と全く変わらない
@@ -76,27 +76,27 @@ Milestoneがひとつもないと作っておいてね、と言われる [課題
 ![chart-no-startdate.png](https://qiita-image-store.s3.amazonaws.com/0/113398/accfc824-fe00-358c-d390-acd63e18320d.png "chart-no-startdate.png")
 
 やっと表示されたみたいだけど、Total Story Pointsが0になってしまっている
-この期間で対応するストーリにMilestoneを設定しよう
+この期間で対応するIssueにMilestoneを設定しよう
 ![chart-no-stories.png](https://qiita-image-store.s3.amazonaws.com/0/113398/73ec62de-4e04-d514-4ee3-8325a214cb7f.png "chart-no-stories.png")
 
 設定完了！
 理想線も見えているぞ！（ちゃんと土日は働かなくて良い様になっている）
 ![chart-line.png](https://qiita-image-store.s3.amazonaws.com/0/113398/3887e826-fa04-7114-f8de-573a33982dd9.png "chart-line.png")
 
-1画面に収まらないけど、表示中のMilestoneに紐付くストーリが下に列挙されるぞ
+1画面に収まらないけど、表示中のMilestoneに紐付くIssueが下に列挙されるぞ
 ![chart-stories.png](https://qiita-image-store.s3.amazonaws.com/0/113398/36626285-6a14-b843-2f87-c10d51495a9b.png "chart-stories.png")
 
-少し日にちが経ってストーリを一部焼いた様子
-ポチにカーソルを合わせると焼いたストーリがわかるぞ
+少し日にちが経ってIssueを一部焼いた様子
+ポチにカーソルを合わせると焼いたIssueがわかるぞ
 ![chart-stories.png](https://qiita-image-store.s3.amazonaws.com/0/113398/18f1b043-c433-5643-31e5-8a05b873de93.png "chart-stories.png")
 
 ### 何を数えているか
-このバーンダウンチャートは「Milestoneに紐付くストーリ」の「見積もりポイント」を数えて描かれている
+このバーンダウンチャートは「Milestoneに紐付くIssue」の「見積もりポイント」を数えて描かれている
 
-だから大きいストーリは全てが完了した日に一気にバーンダウンすることになる
-日々の進捗が少しでも見たい場合は、ストーリの粒度をもっと小さくする必要がある
+だから大きいIssueは全てが完了した日に一気にバーンダウンすることになる
+日々の進捗が少しでも見たい場合は、Issueの粒度をもっと小さくする必要がある
 
-ストーリを分けすぎるとストーリがばらばらに別れて散ってしまい管理が難しそうだ、と思った人は
+Issueを分けすぎるとIssueがばらばらに別れて散ってしまい管理が難しそうだ、と思った人は
 次のEpicの項を読んでみて欲しい
 
 ## [epic] ストーリをまとめよう
@@ -107,7 +107,7 @@ Issue作成画面で先ほどは使わなかった青いボタンを押してみ
 ![epic-create.png](https://qiita-image-store.s3.amazonaws.com/0/113398/012662e9-ee4f-46fc-e21d-62ea2c873d0a.png "chart-stories.png")
 
 するとなにやらこんな画面になる
-Epicに紐付くストーリを作ったり選んだりする画面だ この画面ではすぐ青いCreate Epicボタンを押してしまって良い
+Epicに紐付くIssueを作ったり選んだりする画面だ この画面ではすぐ青いCreate Epicボタンを押してしまって良い
 ![epic-issue-select.png](https://qiita-image-store.s3.amazonaws.com/0/113398/5afc86e8-170c-d4ec-2036-ecd1210b1371.png "chart-stories.png")
 
 余談だけどこの画面でIssueを作成するのは以下の理由でオススメしない
@@ -220,12 +220,3 @@ privateリポジトリで使う場合はお試し期間があって、決済後�
 多分全部
 組織の下にリポジトリを複数作るって形だと思うけど、隣のチームがZenHubを使っている様だけどうちは関係ないなー、とはならない
 組織単位でZenHubに情報を明け渡す必要があるので、使い出すチームは一応それを意識しておいた方が良いと思う
-
-
-
-
-
-## うにゃほげぇ
-ストーリ/Issue 統一する
-記事内相互リンクをする（過去記事文も）
-フッタに記事一覧を書く
