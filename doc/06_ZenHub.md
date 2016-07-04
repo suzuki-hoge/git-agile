@@ -220,3 +220,11 @@ privateリポジトリで使う場合はお試し期間があって、決済後�
 多分全部
 組織の下にリポジトリを複数作るって形だと思うけど、隣のチームがZenHubを使っている様だけどうちは関係ないなー、とはならない
 組織単位でZenHubに情報を明け渡す必要があるので、使い出すチームは一応それを意識しておいた方が良いと思う
+
+## よろしければ他記事もどうぞ
++ [もくじ](http://qiita.com/suzuki-hoge/items/a6e3bdc2cc1cf4e98ea1)
++ [ドキュメント管理](http://qiita.com/suzuki-hoge/items/1d6022cca177e2d96bb5)
++ [公開](http://qiita.com/suzuki-hoge/items/cd5170e7090407eb3e66)
++ [自動化](http://qiita.com/suzuki-hoge/items/159bfbcb883a9ce74157)
++ [課題管理](http://qiita.com/suzuki-hoge/items/3a568dff36fd981082ba)
++ [満足していないこと](http://qiita.com/suzuki-hoge/items/1c0fa6a285aec080cd81)
