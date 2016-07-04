@@ -3,7 +3,7 @@ GitHubを中心とした開発プロセス ZenHub
 [GitHubを中心とした開発プロセス](http://qiita.com/suzuki-hoge/items/a6e3bdc2cc1cf4e98ea1)のZenHub編です
 
 ## はじめに
-ざっくり言うとGitHubを拡張するChrome拡張のこと
+ざっくり言うとGitHubを拡張してRedmineやJiraの様に課題管理を出来る様にするchrome拡張のことだ！
 紹介記事や導入記事はたくさんあるので、具体的な使い方を紹介してみようと思います
 
 ### 導入前後のキャプチャ
@@ -13,8 +13,8 @@ ZenHub.ioからChrome拡張のインストールをするだけ
 するとこんなのや
 ![navs.png](https://qiita-image-store.s3.amazonaws.com/0/113398/8b6bcf16-6a7a-6ecd-79df-fe8d347e5244.png "navs.png")
 
-こんなの機能が何やら増えている
-![sides.png](https://qiita-Board-store.s3.amazonaws.com/0/113398/7669ae99-0ddb-0a70-5ec5-8d5f2fb62854.png "sides.png")
+こんな機能が何やら増えている
+![sides.png](https://qiita-image-store.s3.amazonaws.com/0/113398/0f35e0a1-d106-09e6-9a50-4809df5d120e.png "sides.png")
 
 ZenHubを導入して一通り必要なことを設定するという想定で進めます
 
@@ -66,7 +66,7 @@ Issue一覧にも表示される
 進捗はバーンダウンチャートで把握しよう
 
 ### バーンダウンチャートが見えるまで
-一番最初は最初はちょっとだけ手間が必要だ ちょっとだけね
+一番最初はちょっとだけ手間が必要だ ちょっとだけね
 
 Milestoneがひとつもないと作っておいてね、と言われる [課題管理編: Issueの対応期限を明示する](http://qiita.com/suzuki-hoge/items/3a568dff36fd981082ba#milestone-issue%E3%81%AE%E5%AF%BE%E5%BF%9C%E6%9C%9F%E9%99%90%E3%82%92%E6%98%8E%E7%A4%BA%E3%81%99%E3%82%8B)
 ![chart-no-milestones.png](https://qiita-image-store.s3.amazonaws.com/0/113398/fb98ce24-c7cb-df1a-3f6d-40d87654c2e1.png "chart-no-milestones.png")
@@ -130,7 +130,7 @@ IssueをEpicに紐付ける場合はIssue画面からEpicを選択する
 最初はEpicの使い方がよくわからなかったけど、1月ほど使ってみて「Epicは機能を表す」ものだと考えた
 Epicは機能を表し、それに紐付くIssueは作業を表す と考えるのが一番しっくりきた
 
-Epicは後述するリリースプランニングの項でも役に立つのでこの考え方を覚えて置いて欲しい
+Epicは後述するリリースプランニングの項でも役に立つのでこの考え方を覚えておいて欲しい
 
 また、Epic自体の説明欄には総合仕様を書いておくと良い
 ![epic-desc.png](https://qiita-image-store.s3.amazonaws.com/0/113398/3fb83796-9d40-9af6-5c10-02da986e28ec.png "chart-stories.png")
